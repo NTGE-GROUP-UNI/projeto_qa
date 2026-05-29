@@ -6,7 +6,6 @@ import uuid
 app = Flask(__name__)
 CORS(app)
 
-# Armazenamento em memória
 tarefas = {}
 
 def gerar_id():
@@ -25,7 +24,6 @@ def criar_tarefa():
 
     titulo = dados["titulo"].strip()
 
-    # Verificar título duplicado
     for t in tarefas.values():
         if t["titulo"].lower() == titulo.lower():
             return jsonify({"erro": "Já existe uma tarefa com este título"}), 409

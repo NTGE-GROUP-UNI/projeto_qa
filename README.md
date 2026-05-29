@@ -11,8 +11,6 @@
 - Thiago Almeida Brum - RA: 95574
 - Gabriel da Silva Araújo - RA: 89655
 
-# projeto_qa
-
 ---
 
 ## 📁 Estrutura de Arquivos

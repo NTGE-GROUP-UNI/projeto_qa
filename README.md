@@ -1,6 +1,17 @@
 # TaskFlow – Sistema de Gerenciamento de Tarefas
 
-### AC3 – Quality Assurance | UNIFECAF
+### Quality Assurance | UNIFECAF
+
+---
+
+## 👥 Integrantes do Projeto
+
+- Elias Santana - RA: 97351
+- Nathan Rodrigues - RA: 98502
+- Thiago Almeida Brum - RA: 95574
+- Gabriel da Silva Araújo - RA: 89655
+
+# projeto_qa
 
 ---
 
@@ -106,7 +117,7 @@ POST /tarefas
 
 ---
 
-## 🐛 Bugs Conhecidos (para documentar no AC3)
+## 🐛 Bugs Conhecidos (para documentar)
 
 1. **BUG-01 – Sem persistência:** dados são perdidos ao reiniciar o servidor.
    - _Impacto:_ Médio — todos os dados somem ao parar o processo.
@@ -117,10 +128,3 @@ POST /tarefas
    - _Sugestão:_ Adicionar parâmetros `page` e `limit`.
 
 ---
-
-## 💡 Melhorias Sugeridas
-
-- **Técnica 1:** Adicionar banco de dados SQLite para persistência.
-- **Técnica 2:** Implementar autenticação simples (token JWT ou API Key).
-- **Geral:** Adicionar feedback visual de loading no front-end durante requisições.
-# projeto_qa
